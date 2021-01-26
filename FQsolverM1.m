@@ -1,4 +1,4 @@
-function [OptNum,OptAP] = FQsolver(AP,Contr,Mission,Reach)
+function [OptNum,OptAP] = FQsolverM1(AP,Contr,Mission,Reach)
 [m,n]=size(Contr);
 if not(SIZEMATCH(AP,[n 1]))
     error("The first input is an n*1 matrix, the second input is an m*n matrix, where n is the number of FQ.");
