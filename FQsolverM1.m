@@ -9,13 +9,17 @@ end
 FQprob=optimproblem;
 Num=optimvar('Num',n,'Type','integer','LowerBound',0);
 FQprob.Constraints.Mission=Contr*Num>=Mission-Reach;
-FQprob.Objective=AP.*Num;
-[OptNum,OptAP]=solve(FQprob);
+FQprob.Objective=AP(1)*Num(1);
+for i=2:n
+    FQprob.Objective=FQprob.Objective+AP(i)*Num(i);
+end
+[Opt,OptAP]=solve(FQprob);
+OptNum=Opt.Num;
 end
 
 function R=SIZEMATCH(A,B)
-n=max(abs(size(A)-size(B)));
-if n=0
+n=max(abs(size(A)-B));
+if n==0
     R=true;
 else
     R=false;
