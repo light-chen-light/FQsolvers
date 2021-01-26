@@ -7,7 +7,7 @@
 * 下載 FQsolverM1.m 至你的 MATLAB 資料夾
 * 準備好所需的資料
 * 執行程式碼
-[OptNum,OptAP]=FQsolverM1(AP,Contr,Mission,Reach);
+* * [OptNum,OptAP]=FQsolverM1(AP,Contr,Mission,Reach);
 
 ## 記號
 * m 是活動任務(mission)的數量
