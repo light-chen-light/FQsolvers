@@ -1,6 +1,6 @@
 # FQsolvers
 利用 MATLAB 內建功能計算達成在FGO的活動中，使用最少AP達成活動需求的方法
-* 相關工具: https://github.com/shinli256/FQsolverData
+* 相關工具: https://github.com/light-chen-light/FQsolverData
 
 # Version M1
 ## 使用方法
