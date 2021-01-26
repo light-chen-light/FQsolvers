@@ -11,7 +11,7 @@ This is a MATLAB-based calculator to optimize your free quests toward missions i
 
 ## Convention:
 * m is the number of missions considered
-* n is the number of free quests considered
+* n is the number of free quests (FQ) considered
 
 ## Inputs:
 * AP is an n×1 double matrix, denoting the AP cost of each FQ
