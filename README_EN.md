@@ -2,7 +2,7 @@
 This is a MATLAB-based calculator to optimize your free quests toward missions in FGO events.
 * Related Tools: https://github.com/light-chen-light/FQsolverData
 
-# Version M1
+# Version M1&M2
 ## How to use:
 * Download FQsolverM1.m to the MATLAB folder
 * Prepare the required input data
