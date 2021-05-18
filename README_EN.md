@@ -6,8 +6,10 @@ This is a MATLAB-based calculator to optimize your free quests toward missions i
 ## How to use:
 * Download FQsolverM1.m to the MATLAB folder
 * Prepare the required input data
-* Enter and run the code
+* (M1) Enter and run the code
 * * [OptNum,OptAP]=FQsolverM1(AP,Contr,Mission,Reach);
+* (M2) Enter and run the code
+* * [OptNum,OptAP] = FQsolverM2(AP,ContrCommon,ContrRare,Rare,Mission,Reach);
 
 ## Convention:
 * m is the number of missions considered
